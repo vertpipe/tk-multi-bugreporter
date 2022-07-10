@@ -93,7 +93,7 @@ class AppDialog(QtGui.QWidget):
         # Create the widget that the user will use to view the default CC
         # list, plus enter in any additional users if the choose to do so.
         self._cc_widget = self._field_manager.create_widget(
-            "Ticket",
+            "Note",
             "addressings_cc",
             parent=self,
         )
